@@ -44,12 +44,21 @@ return [
         ],
     ],
 
+    //facebook credentials to login
+
     'facebook' => [
     'client_id' => '423627001806596',
     'client_secret' => '736614a8056ef364e045a4fa15fab03c',
     'redirect' => 'http://localhost:8000/callback/facebook',
     ],
 
-    
+    //google credentials to login
+    'google' => [
+    'client_id' => '926096087767-kglqilnhgb9khmu5eqd3nicdjqqd0m56.apps.googleusercontent.com',
+    'client_secret' => 'oFkBG9VLCSBNwJ3lG3oDqAgu',
+    'redirect' => 'http://localhost:8000/callback/google',
+    ],
+
+
 
 ];

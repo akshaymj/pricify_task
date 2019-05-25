@@ -50,6 +50,8 @@
                                 <b>OR</b>
 
                                 <a href="{{ url('/auth/redirect/facebook') }}"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+
+                                <a href="{{ url('/auth/redirect/google') }}"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </form>
